@@ -1,8 +1,29 @@
 aid: ginkgo-bioworks
 name: Ginkgo Bioworks
-description: Ginkgo Bioworks is a company surfaced as a portfolio company of dcvc, softbank-vision-fund,
-  y-combinator and added to the API Evangelist network as a stub for enrichment. This profile is a lead
-  awaiting the enrichment pipeline.
+description: >-
+  Ginkgo Bioworks is a synthetic biology company founded in 2008 and
+  headquartered in Boston, Massachusetts, that builds a horizontal platform for
+  programming biology. Through autonomous laboratories, foundry services, and
+  AI-powered tools, Ginkgo automates the design-build-test cycle of biological
+  engineering for customers across biopharma, agriculture, industrial biotech,
+  and biosecurity. Its offerings include Build-Your-Own-Lab automation hardware
+  and software, a remotely accessible Cloud Lab, Ginkgo Datapoints screening and
+  data services, Foundry cell-engineering services, and the Catalyst autonomous
+  lab agent. Ginkgo Bioworks (NYSE: DNA) does not currently publish a public
+  self-service developer API; this profile tracks the company's identity and web
+  properties in the API Evangelist network.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/919562?v=4
 url: https://raw.githubusercontent.com/api-evangelist/ginkgo-bioworks/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,12 +35,42 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Synthetic Biology
+- Biotechnology
+- Cell Programming
+- Lab Automation
+- Bioengineering
+- Life Sciences
+- Foundry
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: Website
+  url: https://www.ginkgo.bio/
+- type: GitHubOrganization
+  url: https://github.com/ginkgobioworks
+- type: Blog
+  name: News & Press
+  url: https://www.ginkgo.bio/resources/press
+- type: PrivacyPolicy
+  url: https://www.ginkgo.bio/privacy-policy
+- type: TermsOfService
+  url: https://www.ginkgo.bio/general-terms-conditions
+- type: LinkedIn
+  url: https://www.linkedin.com/company/ginkgo-bioworks
+- type: InvestorRelations
+  url: https://investors.ginkgobioworks.com/
+- type: DomainSecurity
+  url: security/ginkgo-bioworks-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
